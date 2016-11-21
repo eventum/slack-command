@@ -1,12 +1,13 @@
 {
-    "name": "laravel/laravel",
-    "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "name": "eventum/slack-command",
+    "description": "Eventum Slack Slash Command",
+    "keywords": ["eventum", "slack", "slash command"],
     "license": "MIT",
     "type": "project",
     "require": {
         "php": ">=5.6.4",
-        "laravel/framework": "5.3.*"
+        "laravel/framework": "5.3.*",
+        "spatie/laravel-slack-slash-command": "^1.2"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
