@@ -18,8 +18,7 @@ return [
      * until the first one whose `canHandle` method returns true.
      */
     'handlers' => [
-        //add your own handlers here
-
+        App\SlashCommandHandlers\IssueDetails::class,
 
         //this handler will display instructions on how to use the various commands.
         Spatie\SlashCommand\Handlers\Help::class,

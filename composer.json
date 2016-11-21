@@ -7,7 +7,8 @@
     "require": {
         "php": ">=5.6.4",
         "laravel/framework": "5.3.*",
-        "spatie/laravel-slack-slash-command": "^1.2"
+        "spatie/laravel-slack-slash-command": "^1.2",
+        "eventum/rpc": "dev-phpxmlrpc"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
@@ -45,6 +46,12 @@
             "php artisan optimize"
         ]
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/eventum/rpc"
+        }
+    ],
     "config": {
         "preferred-install": "dist"
     }
